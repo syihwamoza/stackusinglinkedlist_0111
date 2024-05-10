@@ -11,7 +11,7 @@ public:
 	}
 };
 
-class stack{
+class stack {
 private:
 	Node* top; 
 
@@ -20,5 +20,8 @@ public:
 		top = NULL; 
 	}
 
+	int push(int value) {
+
+	 }
 }
 
