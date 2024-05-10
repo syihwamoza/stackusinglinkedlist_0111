@@ -16,12 +16,12 @@ private:
 	Node* top; 
 
 public:
-	Stack() {
+	stack() {
 		top = NULL; 
 	}
 
 	int push(int value) {
-
+		Node* newNode = new Node();
 	 }
 }
 
