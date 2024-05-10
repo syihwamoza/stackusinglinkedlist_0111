@@ -13,16 +13,16 @@ public:
 
 class stack {
 private:
-	Node* top; 
+	Node* top;
 
 public:
 	stack() {
-		top = NULL; 
+		top = NULL;
 	}
 
 	int push(int value) {
 		Node* newNode = new Node();
-		newNode->data = value; 
+		newNode->data = value;
 		newNode->next = top;
 		top = newNode;
 		cout << "Push value:" << value << endl;
@@ -35,9 +35,9 @@ public:
 		}
 		cout << "popped value:" << top->data << endl;
 		top = top->next;
-		}
+	}
 
-	void peek(){
+	void peek() {
 		if (top == NULL) {
 			cout << "List is empty." << endl;
 		}
@@ -54,6 +54,13 @@ public:
 	bool isEmpty() {
 		return top == NULL;
 	}
+
+};
+
+int main() {
+
 }
+
+
 
 
